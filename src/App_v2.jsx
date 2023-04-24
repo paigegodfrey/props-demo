@@ -1,26 +1,26 @@
 /* eslint-disable react-refresh/only-export-components */
-import ListItem from './components/ListItem/ListItem';
-import './App.css';
+import ListItem from "./components/ListItem/ListItem";
+import "./App.css";
 
 export const defaultItems = [
   {
-    'food': 'apple',
-    'quantity': 6
+    "food": "apple",
+    "quantity": 6
   },
   {
-    'food': 'orange',
-    'quantity': 1
+    "food": "orange",
+    "quantity": 1
   },
   {
-    'food': 'banana',
-    'quantity': 10
+    "food": "banana",
+    "quantity": 10
   },
 ]
 
 function App() {
   return (
-    <div className='App'>
-      <h1 className='title'>Shopping List</h1>
+    <div className="App">
+      <h1 className="title">Shopping List</h1>
 
       {defaultItems.map((item, idx) =>
         <ListItem
