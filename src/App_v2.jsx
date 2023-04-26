@@ -2,7 +2,6 @@
 import ListItem from "./components/ListItem/ListItem";
 import "./App.css";
 
-// dummy data
 export const foodData = [
   {
     "food": "apple",
@@ -16,7 +15,7 @@ export const foodData = [
     "food": "banana",
     "quantity": 10
   },
-]
+];
 
 function App() {
   return (

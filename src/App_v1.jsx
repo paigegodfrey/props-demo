@@ -1,6 +1,8 @@
 import ListItem from "./components/ListItem/ListItem";
 import "./App.css";
 
+// Note: component `ListItem` takes in props `food` and `quantity`
+
 function App() {
   return (
     <div className="App">

@@ -1,7 +1,6 @@
-/* eslint-disable react/prop-types */
 import "./ListItem.css";
 
-function ListItem({food, quantity = 1}) {
+function ListItem({ food, quantity = 1 }) {
   return (
     <div className="ListItem">
       <h1>Item: {food}</h1>

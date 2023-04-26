@@ -1,13 +1,16 @@
-import ListItem from "./components/ListItem/ListItem";
+import Apple from "./components/Apple/Apple";
+import Banana from "./components/Banana/Banana";
+import Orange from "./components/Orange/Orange";
 import "./App.css";
 
+// initialize with code from `App_v0.jsx`
 function App() {
   return (
     <div className="App">
       <h1 className="title">Shopping List</h1>
-      <ListItem food="apple" quantity={6}/>
-      <ListItem food="banana" quantity={1}/>
-      <ListItem food="orange" quantity={10}/>
+      <Apple />
+      <Banana />
+      <Orange />
     </div>
   );
 }

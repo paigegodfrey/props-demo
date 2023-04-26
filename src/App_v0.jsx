@@ -3,6 +3,8 @@ import Banana from "./components/Banana/Banana";
 import Orange from "./components/Orange/Orange";
 import "./App.css";
 
+// Note: suboptimal approach - see improvement in App_v1.jsx
+
 function App() {
   return (
     <div className="App">
