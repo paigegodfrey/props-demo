@@ -6,7 +6,9 @@ This repo contains the content for the props coding demo accompanying SITE Week 
 
 # Learning Objectives
 
-
+* Unidirectional data flow 
+* Default props
+* JSX iteration
 
 # Getting Started
 
